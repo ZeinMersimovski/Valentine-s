@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Date Ideas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="date-ideas">
+        <h2>Choose a Romantic Date Idea</h2>
+        <ul>
+            <li onclick="showDateDetails('Dinner with a View')">Dinner with a View</li>
+            <li onclick="showDateDetails('Stargazing Night')">Stargazing Night</li>
+            <li onclick="showDateDetails('Picnic in the Park')">Picnic in the Park</li>
+            <li onclick="showDateDetails('Candlelit Movie Night')">Candlelit Movie Night</li>
+            <li onclick="showDateDetails('Beach Sunset Walk')">Beach Sunset Walk</li>
+            <li onclick="showDateDetails('Cooking Class Together')">Cooking Class Together</li>
+            <li onclick="showDateDetails('Art Gallery Visit')">Art Gallery Visit</li>
+            <li onclick="showDateDetails('Hot Air Balloon Ride')">Hot Air Balloon Ride</li>
+            <li onclick="showDateDetails('Escape Room Adventure')">Escape Room Adventure</li>
+            <li onclick="showDateDetails('Wine Tasting Experience')">Wine Tasting Experience</li>
+            <li onclick="showDateDetails('Couples Massage Day')">Couples Massage Day</li>
+            <!-- Додадете уште идеи по ваш избор... -->
+        </ul>
+    </div>
+
+    <div id="date-details">
+        <h2 id="date-title"></h2>
+        <p id="date-description"></p>
+        <button onclick="goBack()">Back to Date Ideas</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

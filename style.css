@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+}
+
+#date-ideas, #date-details {
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#date-ideas ul, #date-details button {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#date-ideas li, #date-details button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#date-details button {
+    background-color: #e74c3c;
+}
+
+#date-ideas li:hover, #date-details button:hover {
+    background-color: #217dbb;
+}
+
+#date-details {
+    display: none;
+}
+
+/* Други стилови... */
